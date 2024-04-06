@@ -2,29 +2,28 @@
 using ADSProject.Models;
 using Microsoft.AspNetCore.Mvc;
 
-
-namespace ADSProyect.Controllers
+namespace ADSProject.Controllers
 {
-    [Route("api/carrera/")]
-    public class CarreraController : ControllerBase
+    [Route("api/grupo/")]
+    public class GrupoController : ControllerBase
     {
-        private readonly ICarrera carrera;
+        private readonly IGrupo grupo;
         private const string COD_EXITO = "000000";
         private const string COD_ERROR = "999999";
         private String pCodRespuesta;
         private String pMensajeUsuario;
         private String pMensajeTecnico;
 
-        public CarreraController(ICarrera carrera)
+        public GrupoController(IGrupo grupo)
         {
-            this.carrera = carrera;
+            this.grupo = grupo;
         }
-        [HttpPost("AgregarCarrera")]
-        public ActionResult<string> AgregarCarrera([FromBody] Carrera carrera)
+        [HttpPost("AgregarGrupo")]
+        public ActionResult<string> AgregarGrupo([FromBody] Grupo grupo)
         {
             try
             {
-                int contador = this.carrera.AgregarCarrera(carrera);
+                int contador = this.grupo.AgregarGrupo(grupo);
                 if (contador > 0)
                 {
                     pCodRespuesta = COD_EXITO;
@@ -46,12 +45,12 @@ namespace ADSProyect.Controllers
             }
         }
 
-        [HttpPut("ActualizarCarrera/{IdCarrera}")]
-        public ActionResult<string> ActualizarEstudiante(int IdCarrera, [FromBody] Carrera carrera)
+        [HttpPut("ActualizarGrupo/{IdGrupo}")]
+        public ActionResult<string> ActualizarGrupo(int IdGrupo, [FromBody] Grupo grupo)
         {
             try
             {
-                int contador = this.carrera.ActualizarCarrera(IdCarrera, carrera);
+                int contador = this.grupo.ActualizarGrupo(IdGrupo, grupo);
 
                 if (contador > 0)
                 {
@@ -75,12 +74,12 @@ namespace ADSProyect.Controllers
             }
         }
 
-        [HttpDelete("EliminarCarrera/{IdCarrera}")]
-        public ActionResult<string> EliminarEstudiante(int IdCarrera)
+        [HttpDelete("EliminarGrupo/{IdGrupo}")]
+        public ActionResult<string> EliminarGrupo(int IdGrupo)
         {
             try
             {
-                bool eliminado = this.carrera.EliminarCarrera(IdCarrera);
+                bool eliminado = this.grupo.EliminarGrupo(IdGrupo);
                 if (eliminado)
                 {
                     pCodRespuesta = COD_EXITO;
@@ -101,15 +100,15 @@ namespace ADSProyect.Controllers
             }
         }
 
-        [HttpGet("ObtenerCarreraPorId/{IdCarrera}")]
-        public ActionResult<Carrera> ObtenerCarreraPorId(int IdCarrera)
+        [HttpGet("ObtenerGrupoPorId/{IdGrupo}")]
+        public ActionResult<Carrera> ObtenerGrupoPorId(int IdGrupo)
         {
             try
             {
-                Carrera carrera = this.carrera.ObtenerCarreraPorId(IdCarrera);
-                if (carrera != null)
+                Grupo grupo = this.grupo.ObtenerGrupoPorId(IdGrupo);
+                if (grupo != null)
                 {
-                    return Ok(carrera);
+                    return Ok(grupo);
                 }
                 else
                 {
@@ -127,13 +126,13 @@ namespace ADSProyect.Controllers
 
         }
 
-        [HttpGet("obtenerCarreras")]
-        public ActionResult<List<Carrera>> ObtenertodasLasCarreras()
+        [HttpGet("obtenerGrupos")]
+        public ActionResult<List<Grupo>> ObtenertodasLosGrupos()
         {
             try
             {
-                List<Carrera> lstCarrera = this.carrera.ObtenertodasLasCarreras();
-                return Ok(lstCarrera);
+                List<Grupo> lstGrupo = this.grupo.ObtenertodasLosGrupos();
+                return Ok(lstGrupo);
             }
             catch (Exception)
             {
@@ -141,5 +140,6 @@ namespace ADSProyect.Controllers
                 throw;
             }
         }
+
     }
 }

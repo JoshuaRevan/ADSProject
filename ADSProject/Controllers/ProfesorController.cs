@@ -2,29 +2,28 @@
 using ADSProject.Models;
 using Microsoft.AspNetCore.Mvc;
 
-
-namespace ADSProyect.Controllers
+namespace ADSProject.Controllers
 {
-    [Route("api/carrera/")]
-    public class CarreraController : ControllerBase
+    [Route("api/profesor/")]
+    public class ProfesorController : ControllerBase
     {
-        private readonly ICarrera carrera;
+        private readonly IProfesor profesor;
         private const string COD_EXITO = "000000";
         private const string COD_ERROR = "999999";
         private String pCodRespuesta;
         private String pMensajeUsuario;
         private String pMensajeTecnico;
 
-        public CarreraController(ICarrera carrera)
+        public ProfesorController(IProfesor profesor)
         {
-            this.carrera = carrera;
+            this.profesor = profesor;
         }
-        [HttpPost("AgregarCarrera")]
-        public ActionResult<string> AgregarCarrera([FromBody] Carrera carrera)
+        [HttpPost("AgregarProfesor")]
+        public ActionResult<string> AgregarProfesor([FromBody] Profesor profesor)
         {
             try
             {
-                int contador = this.carrera.AgregarCarrera(carrera);
+                int contador = this.profesor.AgregarProfesor(profesor);
                 if (contador > 0)
                 {
                     pCodRespuesta = COD_EXITO;
@@ -46,12 +45,12 @@ namespace ADSProyect.Controllers
             }
         }
 
-        [HttpPut("ActualizarCarrera/{IdCarrera}")]
-        public ActionResult<string> ActualizarEstudiante(int IdCarrera, [FromBody] Carrera carrera)
+        [HttpPut("ActualizarProfesor/{IdProfesor}")]
+        public ActionResult<string> ActualizarProfesor(int IdProfesor, [FromBody] Profesor profesor)
         {
             try
             {
-                int contador = this.carrera.ActualizarCarrera(IdCarrera, carrera);
+                int contador = this.profesor.ActualizarProfesor(IdProfesor, profesor);
 
                 if (contador > 0)
                 {
@@ -75,12 +74,12 @@ namespace ADSProyect.Controllers
             }
         }
 
-        [HttpDelete("EliminarCarrera/{IdCarrera}")]
-        public ActionResult<string> EliminarEstudiante(int IdCarrera)
+        [HttpDelete("EliminarProfesor/{IdProfesor}")]
+        public ActionResult<string> EliminarProfesor(int IdProfesor)
         {
             try
             {
-                bool eliminado = this.carrera.EliminarCarrera(IdCarrera);
+                bool eliminado = this.profesor.EliminarProfesor(IdProfesor);
                 if (eliminado)
                 {
                     pCodRespuesta = COD_EXITO;
@@ -101,15 +100,15 @@ namespace ADSProyect.Controllers
             }
         }
 
-        [HttpGet("ObtenerCarreraPorId/{IdCarrera}")]
-        public ActionResult<Carrera> ObtenerCarreraPorId(int IdCarrera)
+        [HttpGet("ObtenerProfesoresPorId/{IdProfesor}")]
+        public ActionResult<Profesor> ObtenerProfesoresPorId(int IdProfesor)
         {
             try
             {
-                Carrera carrera = this.carrera.ObtenerCarreraPorId(IdCarrera);
-                if (carrera != null)
+                Profesor profesor = this.profesor.ObtenerProfesoresPorId(IdProfesor);
+                if (profesor != null)
                 {
-                    return Ok(carrera);
+                    return Ok(profesor);
                 }
                 else
                 {
@@ -127,13 +126,13 @@ namespace ADSProyect.Controllers
 
         }
 
-        [HttpGet("obtenerCarreras")]
-        public ActionResult<List<Carrera>> ObtenertodasLasCarreras()
+        [HttpGet("obtenerProfesores")]
+        public ActionResult<List<Profesor>> ObtenertodasLosProfesores()
         {
             try
             {
-                List<Carrera> lstCarrera = this.carrera.ObtenertodasLasCarreras();
-                return Ok(lstCarrera);
+                List<Profesor> lstProfesor = this.profesor.ObtenertodasLosProfesores();
+                return Ok(lstProfesor);
             }
             catch (Exception)
             {

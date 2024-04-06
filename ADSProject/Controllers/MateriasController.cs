@@ -2,85 +2,90 @@
 using ADSProject.Models;
 using Microsoft.AspNetCore.Mvc;
 
-
-namespace ADSProyect.Controllers
+namespace ADSProject.Controllers
 {
-    [Route("api/carrera/")]
-    public class CarreraController : ControllerBase
+    [Route("api/materia")]
+    public class MateriasController : ControllerBase
     {
-        private readonly ICarrera carrera;
+        private readonly IMateria materia;
         private const string COD_EXITO = "000000";
         private const string COD_ERROR = "999999";
-        private String pCodRespuesta;
-        private String pMensajeUsuario;
-        private String pMensajeTecnico;
+        private string pCodRespuesta;
+        private string pMensajeUsuario;
+        private string pMensajeTecnico;
 
-        public CarreraController(ICarrera carrera)
+        public MateriasController(IMateria materia)
         {
-            this.carrera = carrera;
+            this.materia = materia;
         }
-        [HttpPost("AgregarCarrera")]
-        public ActionResult<string> AgregarCarrera([FromBody] Carrera carrera)
+
+
+        [HttpPost("agregarMateria")]
+        public ActionResult<string> AgregarMateria([FromBody] Materia materia)
         {
             try
             {
-                int contador = this.carrera.AgregarCarrera(carrera);
-                if (contador > 0)
+                int contador = this.materia.AgregarMateria(materia);
+                if (contador == 0)
                 {
                     pCodRespuesta = COD_EXITO;
+                    pMensajeUsuario = "Exito insertado con exito";
+                    pMensajeTecnico = pCodRespuesta + "||" + pMensajeUsuario;
+                }
+                else
+                {
+                    pCodRespuesta = COD_ERROR;
                     pMensajeUsuario = "Registro insertado con exito";
                     pMensajeTecnico = pCodRespuesta + "||" + pMensajeUsuario;
                 }
-                else
-                {
-                    pCodRespuesta = COD_ERROR;
-                    pMensajeUsuario = "Ocurrio un porblema al inserta el registro";
-                    pMensajeTecnico = pCodRespuesta + "||" + pMensajeUsuario;
-                }
+
                 return Ok(new { pCodRespuesta, pMensajeUsuario, pMensajeTecnico });
+
             }
             catch (Exception)
             {
-
                 throw;
+
             }
+
         }
 
-        [HttpPut("ActualizarCarrera/{IdCarrera}")]
-        public ActionResult<string> ActualizarEstudiante(int IdCarrera, [FromBody] Carrera carrera)
+        [HttpPut("ActualizarMateria/{IdMateria}")]
+        public ActionResult<string> ActualizarEstudiante(int IdMateria, [FromBody] Materia materia)
         {
             try
             {
-                int contador = this.carrera.ActualizarCarrera(IdCarrera, carrera);
-
+                int contador = this.materia.ActualizarMateria(IdMateria, materia);
                 if (contador > 0)
                 {
                     pCodRespuesta = COD_EXITO;
-                    pMensajeUsuario = "Resgistro actualizado con exito";
+                    pMensajeUsuario = "Registro actualizado coon exito";
                     pMensajeTecnico = pCodRespuesta + "||" + pMensajeUsuario;
-
                 }
                 else
                 {
                     pCodRespuesta = COD_ERROR;
-                    pMensajeUsuario = "Ocurrio un erro en el registro";
+                    pMensajeUsuario = "Ocurrio un problema al actualizar el registro";
                     pMensajeTecnico = pCodRespuesta + "||" + pMensajeUsuario;
                 }
                 return Ok(new { pCodRespuesta, pMensajeUsuario, pMensajeTecnico });
             }
             catch (Exception)
             {
-
                 throw;
+
             }
+
+
+
         }
 
-        [HttpDelete("EliminarCarrera/{IdCarrera}")]
-        public ActionResult<string> EliminarEstudiante(int IdCarrera)
+        [HttpDelete("EliminarMateria/{IdMateria}")]
+        public ActionResult<string> EliminarMateria(int IdMateria)
         {
             try
             {
-                bool eliminado = this.carrera.EliminarCarrera(IdCarrera);
+                bool eliminado = this.materia.EliminarMateria(IdMateria);
                 if (eliminado)
                 {
                     pCodRespuesta = COD_EXITO;
@@ -101,43 +106,43 @@ namespace ADSProyect.Controllers
             }
         }
 
-        [HttpGet("ObtenerCarreraPorId/{IdCarrera}")]
-        public ActionResult<Carrera> ObtenerCarreraPorId(int IdCarrera)
+        [HttpGet("ObtenerMateriasporId/{IdMateria}")]
+        public ActionResult<Materia> ObtenerMateriasporId(int IdMateria)
         {
             try
             {
-                Carrera carrera = this.carrera.ObtenerCarreraPorId(IdCarrera);
-                if (carrera != null)
+                Materia materia = this.materia.ObtenerMateriasporId(IdMateria);
+                if (materia != null)
                 {
-                    return Ok(carrera);
+                    return Ok(materia);
                 }
                 else
                 {
                     pCodRespuesta = COD_ERROR;
                     pMensajeUsuario = "No se encontraron datos del estudiante";
-                    pMensajeTecnico = pCodRespuesta + " || " + pMensajeUsuario;
+                    pMensajeTecnico = pCodRespuesta + "||" + pMensajeUsuario;
+
                     return NotFound(new { pCodRespuesta, pMensajeUsuario, pMensajeTecnico });
                 }
             }
-            catch (Exception)
+            catch
             {
+
                 throw;
             }
-
-
         }
 
-        [HttpGet("obtenerCarreras")]
-        public ActionResult<List<Carrera>> ObtenertodasLasCarreras()
+        [HttpGet("ObtenerMaterias")]
+        public ActionResult<List<Materia>> ObtenerTodosLasMaterias()
         {
             try
             {
-                List<Carrera> lstCarrera = this.carrera.ObtenertodasLasCarreras();
-                return Ok(lstCarrera);
-            }
-            catch (Exception)
-            {
+                List<Materia> lstMateria = this.materia.ObtenerTodosLasMaterias();
 
+                return Ok(lstMateria);
+            }
+            catch
+            {
                 throw;
             }
         }

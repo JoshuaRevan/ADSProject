@@ -1,8 +1,6 @@
 ﻿using ADSProject.Interfaces;
 using ADSProject.Models;
-using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
-using RouteAttribute = Microsoft.AspNetCore.Components.RouteAttribute;
 
 namespace ADSProject.Controllers
 {
@@ -19,12 +17,10 @@ namespace ADSProject.Controllers
         public EstudianteController(IEstudiante estudiante)
         {
             this.estudiante = estudiante;
-
         }
     
     
         [HttpPost("agregarEstudiante")]
-
         public ActionResult<string> AgregarEstudiante([FromBody] Estudiante estudiante)
         {
             try
@@ -52,8 +48,8 @@ namespace ADSProject.Controllers
             }
 
         }
-        [HttpPost("ActualizarEstudiante/{idEstudiante}")]
-        
+
+        [HttpPut("ActualizarEstudiante/{idEstudiante}")]
         public ActionResult<string> ActualizarEstudiante(int idEstudiante, [FromBody] Estudiante estudiante) 
         {
             try
@@ -110,7 +106,6 @@ namespace ADSProject.Controllers
         }
 
         [HttpGet("ObtenerEstudiantesPorID/{idEstudiante}")]
-
         public ActionResult<Estudiante> ObtenerEstudiante (int idEstuadiante) 
         {
             try
@@ -135,8 +130,8 @@ namespace ADSProject.Controllers
                 throw;
             }
         }
-        [HttpGet("ObtenerEstudiante")]
 
+        [HttpGet("ObtenerEstudiante")]
         public ActionResult<List<Estudiante>> ObtenerEstudiante()
         {
             try 
