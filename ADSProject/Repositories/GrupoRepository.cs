@@ -30,7 +30,7 @@ namespace ADSProject.Repositories
         {
             try
             {
-                if (lstGrupo.Count > 0) ;
+                if (lstGrupo.Count > 0) 
                 {
                     grupo.IdGrupo = lstGrupo.Last().IdGrupo =
                lstGrupo.Last().IdGrupo + 1;

@@ -31,7 +31,7 @@ namespace ADSProject.Repositories
         {
             try
             {
-                if (lstProfesor.Count > 0) ;
+                if (lstProfesor.Count > 0) 
                 {
                     profesor.IdProfesor = lstProfesor.Last().IdProfesor =
                lstProfesor.Last().IdProfesor + 1;
