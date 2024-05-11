@@ -12,6 +12,7 @@ namespace ADSProject.DB
 
         public DbSet<Estudiante> Estudiantes { get; set; }
         public DbSet<Carrera> carreras { get; set; }
+        public DbSet<Grupo> grupos { get; set; }
     }
 
 }
