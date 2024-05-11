@@ -3,6 +3,46 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|c:\\users\\user\\documents\\proyectos c#\\adsproject\\adsproject\\db\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|solutionrelative:adsproject\\db\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|c:\\users\\user\\documents\\proyectos c#\\adsproject\\adsproject\\migrations\\20240427181330_estudiantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|solutionrelative:adsproject\\migrations\\20240427181330_estudiantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|c:\\users\\user\\documents\\proyectos c#\\adsproject\\adsproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|solutionrelative:adsproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|c:\\users\\user\\documents\\proyectos c#\\adsproject\\adsproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|solutionrelative:adsproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|c:\\users\\user\\documents\\proyectos c#\\adsproject\\adsproject\\repositories\\estudianterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|solutionrelative:adsproject\\repositories\\estudianterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|c:\\users\\user\\documents\\proyectos c#\\adsproject\\adsproject\\interfaces\\iestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|solutionrelative:adsproject\\interfaces\\iestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|c:\\users\\user\\documents\\proyectos c#\\adsproject\\adsproject\\models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|solutionrelative:adsproject\\models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|c:\\users\\user\\documents\\proyectos c#\\adsproject\\adsproject\\models\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|solutionrelative:adsproject\\models\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|c:\\users\\user\\documents\\proyectos c#\\adsproject\\adsproject\\models\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|solutionrelative:adsproject\\models\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|c:\\users\\user\\documents\\proyectos c#\\adsproject\\adsproject\\models\\grupo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|solutionrelative:adsproject\\models\\grupo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|c:\\users\\user\\documents\\proyectos c#\\adsproject\\adsproject\\controllers\\materiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|solutionrelative:adsproject\\controllers\\materiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +51,8 @@
       "RelativeMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|solutionrelative:adsproject\\controllers\\grupocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|c:\\users\\user\\documents\\proyectos c#\\adsproject\\adsproject\\models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|solutionrelative:adsproject\\models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|c:\\users\\user\\documents\\proyectos c#\\adsproject\\adsproject\\models\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|solutionrelative:adsproject\\models\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|c:\\users\\user\\documents\\proyectos c#\\adsproject\\adsproject\\models\\carrera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|solutionrelative:adsproject\\models\\carrera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|c:\\users\\user\\documents\\proyectos c#\\adsproject\\adsproject\\models\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|solutionrelative:adsproject\\models\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|c:\\users\\user\\documents\\proyectos c#\\adsproject\\adsproject\\repositories\\profesorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|solutionrelative:adsproject\\repositories\\carrerarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|c:\\users\\user\\documents\\proyectos c#\\adsproject\\adsproject\\models\\grupo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|solutionrelative:adsproject\\models\\grupo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|c:\\users\\user\\documents\\proyectos c#\\adsproject\\adsproject\\interfaces\\imateria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|solutionrelative:adsproject\\interfaces\\imateria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -63,10 +87,6 @@
       "RelativeMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|solutionrelative:adsproject\\controllers\\estudiantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|c:\\users\\user\\documents\\proyectos c#\\adsproject\\adsproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|solutionrelative:adsproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|c:\\users\\user\\documents\\proyectos c#\\adsproject\\adsproject\\interfaces\\icarrera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|solutionrelative:adsproject\\interfaces\\icarrera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -77,14 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|c:\\users\\user\\documents\\proyectos c#\\adsproject\\adsproject\\interfaces\\iprofesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|solutionrelative:adsproject\\interfaces\\iprofesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|c:\\users\\user\\documents\\proyectos c#\\adsproject\\adsproject\\interfaces\\iestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|solutionrelative:adsproject\\interfaces\\iestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|c:\\users\\user\\documents\\proyectos c#\\adsproject\\adsproject\\repositories\\estudianterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EA342CC-2779-4EF0-8850-2C089E49D270}|ADSProject\\ADSProject.csproj|solutionrelative:adsproject\\repositories\\estudianterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,17 +106,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Grupo.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Models\\Grupo.cs",
               "RelativeDocumentMoniker": "ADSProject\\Models\\Grupo.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Models\\Grupo.cs",
               "RelativeToolTip": "ADSProject\\Models\\Grupo.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAowBwAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-06T06:07:26.7Z",
               "IsPinned": true
@@ -115,31 +127,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Profesor.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Models\\Profesor.cs",
-              "RelativeDocumentMoniker": "ADSProject\\Models\\Profesor.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Models\\Profesor.cs",
-              "RelativeToolTip": "ADSProject\\Models\\Profesor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAWAAAA",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Program.cs",
+              "RelativeDocumentMoniker": "ADSProject\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Program.cs",
+              "RelativeToolTip": "ADSProject\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T05:10:54.068Z"
+              "WhenOpened": "2024-04-06T05:58:47.003Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Estudiante.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Models\\Estudiante.cs",
               "RelativeDocumentMoniker": "ADSProject\\Models\\Estudiante.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Models\\Estudiante.cs",
               "RelativeToolTip": "ADSProject\\Models\\Estudiante.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAA7wA4AAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-06T17:33:58.717Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "20240427181330_Estudiantes.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Migrations\\20240427181330_Estudiantes.cs",
+              "RelativeDocumentMoniker": "ADSProject\\Migrations\\20240427181330_Estudiantes.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Migrations\\20240427181330_Estudiantes.cs",
+              "RelativeToolTip": "ADSProject\\Migrations\\20240427181330_Estudiantes.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwA4AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T18:13:31.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\DB\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ADSProject\\DB\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\DB\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ADSProject\\DB\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T17:44:46.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EstudianteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Repositories\\EstudianteRepository.cs",
+              "RelativeDocumentMoniker": "ADSProject\\Repositories\\EstudianteRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Repositories\\EstudianteRepository.cs",
+              "RelativeToolTip": "ADSProject\\Repositories\\EstudianteRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T03:25:24.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Materia.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Models\\Materia.cs",
               "RelativeDocumentMoniker": "ADSProject\\Models\\Materia.cs",
@@ -151,7 +202,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
+              "Title": "Profesor.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Models\\Profesor.cs",
+              "RelativeDocumentMoniker": "ADSProject\\Models\\Profesor.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Models\\Profesor.cs",
+              "RelativeToolTip": "ADSProject\\Models\\Profesor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T05:10:54.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Carrera.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Models\\Carrera.cs",
               "RelativeDocumentMoniker": "ADSProject\\Models\\Carrera.cs",
@@ -163,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "MateriasController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Controllers\\MateriasController.cs",
               "RelativeDocumentMoniker": "ADSProject\\Controllers\\MateriasController.cs",
@@ -171,12 +234,11 @@
               "RelativeToolTip": "ADSProject\\Controllers\\MateriasController.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAUwBUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T18:00:10.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T18:00:10.137Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "GrupoController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Controllers\\GrupoController.cs",
               "RelativeDocumentMoniker": "ADSProject\\Controllers\\GrupoController.cs",
@@ -188,151 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProfesorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Repositories\\ProfesorRepository.cs",
-              "RelativeDocumentMoniker": "ADSProject\\Repositories\\ProfesorRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Repositories\\ProfesorRepository.cs",
-              "RelativeToolTip": "ADSProject\\Repositories\\ProfesorRepository.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAUwFIAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T05:21:01.537Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MateriaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Repositories\\MateriaRepository.cs",
-              "RelativeDocumentMoniker": "ADSProject\\Repositories\\MateriaRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Repositories\\MateriaRepository.cs",
-              "RelativeToolTip": "ADSProject\\Repositories\\MateriaRepository.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAUwEcAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T03:25:14.939Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GrupoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Repositories\\GrupoRepository.cs",
-              "RelativeDocumentMoniker": "ADSProject\\Repositories\\GrupoRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Repositories\\GrupoRepository.cs",
-              "RelativeToolTip": "ADSProject\\Repositories\\GrupoRepository.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAiwCAAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T06:17:33.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CarreraRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Repositories\\CarreraRepository.cs",
-              "RelativeDocumentMoniker": "ADSProject\\Repositories\\CarreraRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Repositories\\CarreraRepository.cs",
-              "RelativeToolTip": "ADSProject\\Repositories\\CarreraRepository.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAUwFIAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T01:20:09.869Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IMateria.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Interfaces\\IMateria.cs",
-              "RelativeDocumentMoniker": "ADSProject\\Interfaces\\IMateria.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Interfaces\\IMateria.cs",
-              "RelativeToolTip": "ADSProject\\Interfaces\\IMateria.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T03:17:30.023Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProfesorController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Controllers\\ProfesorController.cs",
-              "RelativeDocumentMoniker": "ADSProject\\Controllers\\ProfesorController.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Controllers\\ProfesorController.cs",
-              "RelativeToolTip": "ADSProject\\Controllers\\ProfesorController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwD0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T05:35:52.575Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CarreraController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Controllers\\CarreraController.cs",
-              "RelativeDocumentMoniker": "ADSProject\\Controllers\\CarreraController.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Controllers\\CarreraController.cs",
-              "RelativeToolTip": "ADSProject\\Controllers\\CarreraController.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAwwEwAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T03:57:39.204Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "EstudianteController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Controllers\\EstudianteController.cs",
-              "RelativeDocumentMoniker": "ADSProject\\Controllers\\EstudianteController.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Controllers\\EstudianteController.cs",
-              "RelativeToolTip": "ADSProject\\Controllers\\EstudianteController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwBkAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T03:57:30.396Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ICarrera.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Interfaces\\ICarrera.cs",
-              "RelativeDocumentMoniker": "ADSProject\\Interfaces\\ICarrera.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Interfaces\\ICarrera.cs",
-              "RelativeToolTip": "ADSProject\\Interfaces\\ICarrera.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T04:18:29.814Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Program.cs",
-              "RelativeDocumentMoniker": "ADSProject\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Program.cs",
-              "RelativeToolTip": "ADSProject\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T05:58:47.003Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IGrupo.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Interfaces\\IGrupo.cs",
-              "RelativeDocumentMoniker": "ADSProject\\Interfaces\\IGrupo.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Interfaces\\IGrupo.cs",
-              "RelativeToolTip": "ADSProject\\Interfaces\\IGrupo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T06:11:57.55Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IProfesor.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Interfaces\\IProfesor.cs",
-              "RelativeDocumentMoniker": "ADSProject\\Interfaces\\IProfesor.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Interfaces\\IProfesor.cs",
-              "RelativeToolTip": "ADSProject\\Interfaces\\IProfesor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T05:16:23.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 5,
               "Title": "IEstudiante.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Interfaces\\IEstudiante.cs",
               "RelativeDocumentMoniker": "ADSProject\\Interfaces\\IEstudiante.cs",
@@ -344,15 +262,147 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "EstudianteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Repositories\\EstudianteRepository.cs",
-              "RelativeDocumentMoniker": "ADSProject\\Repositories\\EstudianteRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Repositories\\EstudianteRepository.cs",
-              "RelativeToolTip": "ADSProject\\Repositories\\EstudianteRepository.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAowAQAAAABAAAA",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ADSProject\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\appsettings.Development.json",
+              "RelativeToolTip": "ADSProject\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-27T18:16:20.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProfesorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Repositories\\ProfesorRepository.cs",
+              "RelativeDocumentMoniker": "ADSProject\\Repositories\\ProfesorRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Repositories\\ProfesorRepository.cs",
+              "RelativeToolTip": "ADSProject\\Repositories\\ProfesorRepository.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAUwFIAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T03:25:24.356Z"
+              "WhenOpened": "2024-04-06T05:21:01.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MateriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Repositories\\MateriaRepository.cs",
+              "RelativeDocumentMoniker": "ADSProject\\Repositories\\MateriaRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Repositories\\MateriaRepository.cs",
+              "RelativeToolTip": "ADSProject\\Repositories\\MateriaRepository.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAUwEcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T03:25:14.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GrupoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Repositories\\GrupoRepository.cs",
+              "RelativeDocumentMoniker": "ADSProject\\Repositories\\GrupoRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Repositories\\GrupoRepository.cs",
+              "RelativeToolTip": "ADSProject\\Repositories\\GrupoRepository.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAiwCAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T06:17:33.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CarreraRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Repositories\\CarreraRepository.cs",
+              "RelativeDocumentMoniker": "ADSProject\\Repositories\\CarreraRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Repositories\\CarreraRepository.cs",
+              "RelativeToolTip": "ADSProject\\Repositories\\CarreraRepository.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAUwFIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T01:20:09.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IMateria.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Interfaces\\IMateria.cs",
+              "RelativeDocumentMoniker": "ADSProject\\Interfaces\\IMateria.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Interfaces\\IMateria.cs",
+              "RelativeToolTip": "ADSProject\\Interfaces\\IMateria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T03:17:30.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProfesorController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Controllers\\ProfesorController.cs",
+              "RelativeDocumentMoniker": "ADSProject\\Controllers\\ProfesorController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Controllers\\ProfesorController.cs",
+              "RelativeToolTip": "ADSProject\\Controllers\\ProfesorController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T05:35:52.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CarreraController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Controllers\\CarreraController.cs",
+              "RelativeDocumentMoniker": "ADSProject\\Controllers\\CarreraController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Controllers\\CarreraController.cs",
+              "RelativeToolTip": "ADSProject\\Controllers\\CarreraController.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAwwEwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T03:57:39.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EstudianteController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Controllers\\EstudianteController.cs",
+              "RelativeDocumentMoniker": "ADSProject\\Controllers\\EstudianteController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Controllers\\EstudianteController.cs",
+              "RelativeToolTip": "ADSProject\\Controllers\\EstudianteController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T03:57:30.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ICarrera.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Interfaces\\ICarrera.cs",
+              "RelativeDocumentMoniker": "ADSProject\\Interfaces\\ICarrera.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Interfaces\\ICarrera.cs",
+              "RelativeToolTip": "ADSProject\\Interfaces\\ICarrera.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T04:18:29.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IGrupo.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Interfaces\\IGrupo.cs",
+              "RelativeDocumentMoniker": "ADSProject\\Interfaces\\IGrupo.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Interfaces\\IGrupo.cs",
+              "RelativeToolTip": "ADSProject\\Interfaces\\IGrupo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T06:11:57.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IProfesor.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Interfaces\\IProfesor.cs",
+              "RelativeDocumentMoniker": "ADSProject\\Interfaces\\IProfesor.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\proyectos C#\\ADSProject\\ADSProject\\Interfaces\\IProfesor.cs",
+              "RelativeToolTip": "ADSProject\\Interfaces\\IProfesor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T05:16:23.887Z"
             }
           ]
         }
