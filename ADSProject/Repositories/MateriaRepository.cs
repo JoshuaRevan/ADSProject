@@ -1,24 +1,36 @@
-﻿using ADSProject.Interfaces;
+﻿using ADSProject.DB;
+using ADSProject.Interfaces;
 using ADSProject.Models;
 
 namespace ADSProject.Repositories
 {
     public class MateriaRepository : IMateria
     {
-        private List<Materia> lstMateria = new List<Materia>
+        /*private List<Materia> lstMateria = new List<Materia>
         {
             new Materia{ IdMateria = 1, Nombremateria = "Lenguaje"
 
             }
-        };
+        };*/
+        private readonly ApplicationDbContext applicationDbContext;
+
+        public MateriaRepository(ApplicationDbContext applicationDbContext)
+        {
+            this.applicationDbContext = applicationDbContext;
+        }
 
         public int ActualizarMateria(int IdMateria, Materia materia)
         {
             try
             {
-                int indice = lstMateria.FindIndex(tmp => tmp.IdMateria == IdMateria);
+                /*int indice = lstMateria.FindIndex(tmp => tmp.IdMateria == IdMateria);
 
-                lstMateria[indice] = materia;
+                lstMateria[indice] = materia;*/
+                var item = applicationDbContext.materias.SingleOrDefault(x => x.IdMateria == IdMateria);
+
+                applicationDbContext.Entry(item).CurrentValues.SetValues(materia);
+
+                applicationDbContext.SaveChanges();
 
                 return IdMateria;
             }
@@ -33,11 +45,14 @@ namespace ADSProject.Repositories
         {
             try
             {
-                if (lstMateria.Count > 0)
+                /*if (lstMateria.Count > 0)
                 {
                     materia.IdMateria = lstMateria.Last().IdMateria + 1;
                 }
-                lstMateria.Add(materia);
+                lstMateria.Add(materia);*/
+                applicationDbContext.materias.Add(materia);
+                applicationDbContext.SaveChanges ();
+
                 return materia.IdMateria;
             }
             catch (Exception)
@@ -51,10 +66,15 @@ namespace ADSProject.Repositories
         {
             try
             {
-                // ontenemos el indice del objeto a eliminar
+                /*// ontenemos el indice del objeto a eliminar
                 int indice = lstMateria.FindIndex(tmp => tmp.IdMateria == IdMateria);
                 // procedemos a eliminar el registro
-                lstMateria.RemoveAt(indice);
+                lstMateria.RemoveAt(indice);*/
+                var item = applicationDbContext.materias.SingleOrDefault(x => x.IdMateria == IdMateria);
+
+                applicationDbContext.materias.Remove(item);
+
+                applicationDbContext.SaveChanges();
                 return true;
             }
             catch (Exception)
@@ -67,7 +87,8 @@ namespace ADSProject.Repositories
         {
             try
             {
-                Materia materia = lstMateria.FirstOrDefault(tmp => tmp.IdMateria == IdMateria);
+                //Materia materia = lstMateria.FirstOrDefault(tmp => tmp.IdMateria == IdMateria);
+                var materia = applicationDbContext.materias.SingleOrDefault(x => x.IdMateria == IdMateria);
 
                 return materia;
             }
@@ -81,8 +102,9 @@ namespace ADSProject.Repositories
         {
             try
             {
-                return lstMateria;
+                //return lstMateria;
 
+                return applicationDbContext.materias.ToList();
             }
             catch (Exception)
             {
